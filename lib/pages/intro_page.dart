@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-
 import 'home_page.dart';
 
 class IntroPage extends StatelessWidget {
@@ -14,6 +13,7 @@ class IntroPage extends StatelessWidget {
         //logo
         Padding(
           padding: const EdgeInsets.only(left: 260.0, right: 80, top: 80),
+          // image from assets folder
           child: Image.asset(
             'lib/images/avocado.jpg',
           ),
